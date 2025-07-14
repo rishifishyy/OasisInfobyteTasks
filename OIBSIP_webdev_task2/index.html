@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rishi Nehra - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      background: linear-gradient(-45deg, #8d99ae, #edf2f4, #669bbc, #dedbd2);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      line-height: 1.6;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+
+    a:hover {
+      color: #0056b3;
+    }
+
+    header {
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 1.5rem auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: translateY(-4px);
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #2c3e50;
+      font-size: 1.8rem;
+    }
+
+    .profile-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .profile-links a {
+      display: flex;
+      align-items: center;
+      padding: 0.6rem 1rem;
+      background-color: #ecf0f1;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .profile-links a:hover {
+      background-color: #2c3e50;
+      color: white;
+    }
+
+    .profile-links img {
+      width: 24px;
+      height: 24px;
+      margin-right: 0.6rem;
+    }
+
+    .contact-icon {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.4);
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+
+      .profile-links {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .profile-links a {
+        padding: 0.5rem;
+      }
+
+      .profile-links img {
+        width: 20px;
+        height: 20px;
+      }
+
+      .contact-icon {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rishi Nehra</h1>
+    <p>Masters in Computer Applications | Web Developer & Problem Solver</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm <strong>Rishi Nehra</strong>, currently pursuing my <strong>MCA (2024–2026)</strong> at
+      <strong>KIET Group of Institutions</strong>. I have a passion for web development, programming, and building real-world tech solutions.
+    </p>
+  </section>
+
+  <section>
+    <h2>Online Coding Profiles</h2>
+    <div class="profile-links">
+      <a href="https://leetcode.com/u/67N1ftVABy/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode Logo">
+        LeetCode
+      </a>
+      <a href="https://www.geeksforgeeks.org/user/rishintbyy/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" alt="GFG Logo">
+        GeeksforGeeks
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:rishinehra1@gmail.com">rishinehra1@gmail.com</a></p>
+    <p><strong>Location:</strong> India</p>
+
+      <p>
+  <strong>LinkedIn:</strong>
+  <a href="https://www.linkedin.com/in/rishi-nehra-78274a1a0" target="_blank">
+    <img class="contact-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn Icon" />
+    Rishi Nehra
+  </a>
+</p>
+
+   
+  </section>
+
+  <footer>  
+    &copy; Basic Portfolio Page
+  </footer>
+
+</body>
+</html>
